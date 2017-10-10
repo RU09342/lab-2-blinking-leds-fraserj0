@@ -8,6 +8,8 @@ In this excersize, the MSP430G2553 was programmed with the SimpleBlink software 
 protection circuitry was installed, and the processor was powered, an LED is connected to the outpin pin. Once done correctly, the
 LED blinks exactly how it did when the processor was on the development board. 
 
+![alt text](https://github.com/RU09342/lab-2-blinking-leds-fraserj0/blob/master/OffBoardBlink/OffBoardBlinkVideo.gif)
+
 ## How it works
 Once the processor is placed on the breadboard, a protection circuit must be built in order to keep the processor from recieving
 too much power causing it to fail. To do this, a bulk capacitor is added in order to act as a temporary power supply if the power
