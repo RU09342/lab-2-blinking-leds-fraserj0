@@ -1,0 +1,27 @@
+#include <msp430.h> 
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    volatile int i;
+
+     // stop watchdog timer
+     WDTCTL = WDTPW | WDTHOLD; //stop watchdog timer
+     // set up bit 0 of P1 as output
+     P1DIR = 0x01;
+    //P1DIR = 6x01;
+     // intialize bit 0 of P1 to 0
+     P1OUT = 0x00;
+    // P1OUT = 6x01;
+
+     // loop forever
+     while(1) {
+       // toggle bit 0 of P1
+       P1OUT ^= 0x01;
+       // delay for a while
+       for (i = 0; i < 30000; i++);
+     }
+}

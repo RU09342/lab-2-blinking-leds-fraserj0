@@ -1,0 +1,35 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430fr5994.cmd 
+
+C_SRCS += \
+../SimpleBlink.c \
+../main.c 
+
+C_DEPS += \
+./SimpleBlink.d \
+./main.d 
+
+OBJS += \
+./SimpleBlink.obj \
+./main.obj 
+
+OBJS__QUOTED += \
+"SimpleBlink.obj" \
+"main.obj" 
+
+C_DEPS__QUOTED += \
+"SimpleBlink.d" \
+"main.d" 
+
+C_SRCS__QUOTED += \
+"../SimpleBlink.c" \
+"../main.c" 
+
+

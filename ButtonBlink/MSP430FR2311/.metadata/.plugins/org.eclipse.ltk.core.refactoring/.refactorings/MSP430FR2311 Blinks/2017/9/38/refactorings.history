@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MSP430FR2311 Blinks/MultipleBlink.C&apos; to &apos;MultipleBlink.c&apos;" description="Rename resource &apos;MultipleBlink.C&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="MultipleBlink.C" name="MultipleBlink.c" stamp="1505847763858" updateReferences="true"/>
+</session>

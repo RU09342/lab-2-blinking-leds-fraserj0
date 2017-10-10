@@ -1,0 +1,65 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430g2553.cmd 
+
+C_SRCS += \
+../AlternatingBlink.c \
+../AlternatingButtonStop.c \
+../ButtonBlink.c \
+../ButtonBlinkColorChange.c \
+../MultipleBlink.c \
+../SimpleBlink.c \
+../main.c 
+
+C_DEPS += \
+./AlternatingBlink.d \
+./AlternatingButtonStop.d \
+./ButtonBlink.d \
+./ButtonBlinkColorChange.d \
+./MultipleBlink.d \
+./SimpleBlink.d \
+./main.d 
+
+OBJS += \
+./AlternatingBlink.obj \
+./AlternatingButtonStop.obj \
+./ButtonBlink.obj \
+./ButtonBlinkColorChange.obj \
+./MultipleBlink.obj \
+./SimpleBlink.obj \
+./main.obj 
+
+OBJS__QUOTED += \
+"AlternatingBlink.obj" \
+"AlternatingButtonStop.obj" \
+"ButtonBlink.obj" \
+"ButtonBlinkColorChange.obj" \
+"MultipleBlink.obj" \
+"SimpleBlink.obj" \
+"main.obj" 
+
+C_DEPS__QUOTED += \
+"AlternatingBlink.d" \
+"AlternatingButtonStop.d" \
+"ButtonBlink.d" \
+"ButtonBlinkColorChange.d" \
+"MultipleBlink.d" \
+"SimpleBlink.d" \
+"main.d" 
+
+C_SRCS__QUOTED += \
+"../AlternatingBlink.c" \
+"../AlternatingButtonStop.c" \
+"../ButtonBlink.c" \
+"../ButtonBlinkColorChange.c" \
+"../MultipleBlink.c" \
+"../SimpleBlink.c" \
+"../main.c" 
+
+

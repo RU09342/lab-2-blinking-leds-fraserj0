@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project MSP430FR5994 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430FR5994 Blinks.out' is up to date.
+
+**** Build Finished ****

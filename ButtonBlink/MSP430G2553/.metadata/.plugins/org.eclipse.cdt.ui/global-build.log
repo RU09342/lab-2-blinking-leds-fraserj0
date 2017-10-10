@@ -1,0 +1,220 @@
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../AlternatingBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="AlternatingBlink.d"  "../AlternatingBlink.c"
+"../AlternatingBlink.c", line 22: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../AlternatingBlink.c", line 22: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../AlternatingBlink.c'
+' '
+'Building file: ../ButtonBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBlink.d"  "../ButtonBlink.c"
+'Finished building: ../ButtonBlink.c'
+' '
+'Building file: ../ButtonBlinkColorChange.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBlinkColorChange.d"  "../ButtonBlinkColorChange.c"
+'Finished building: ../ButtonBlinkColorChange.c'
+' '
+'Building file: ../AlternatingButtonStop.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="AlternatingButtonStop.d"  "../AlternatingButtonStop.c"
+"../AlternatingButtonStop.c", line 26: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../AlternatingButtonStop.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../AlternatingButtonStop.c", line 66: warning #9-D: nested comment is not allowed
+'Finished building: ../AlternatingButtonStop.c'
+' '
+'Building file: ../MultipleBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="MultipleBlink.d"  "../MultipleBlink.c"
+"../MultipleBlink.c", line 17: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../MultipleBlink.c'
+' '
+'Building file: ../SimpleBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="SimpleBlink.d"  "../SimpleBlink.c"
+"../SimpleBlink.c", line 15: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../SimpleBlink.c", line 15: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../SimpleBlink.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553 Blinks.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553 Blinks.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 5: warning #225-D: function "SimpleBlink" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../SimpleBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="SimpleBlink.d"  "../SimpleBlink.c"
+"../SimpleBlink.c", line 15: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../SimpleBlink.c", line 15: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../SimpleBlink.c'
+' '
+'Building file: ../AlternatingButtonStop.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="AlternatingButtonStop.d"  "../AlternatingButtonStop.c"
+"../AlternatingButtonStop.c", line 26: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../AlternatingButtonStop.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../AlternatingButtonStop.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 9: warning #225-D: function "AlternatingBlink" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 6: warning #225-D: function "MultipleBlink" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../SimpleBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="SimpleBlink.d"  "../SimpleBlink.c"
+"../SimpleBlink.c", line 15: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../SimpleBlink.c", line 15: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../SimpleBlink.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 10: warning #225-D: function "AlternatingButtonStop" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../AlternatingButtonStop.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="AlternatingButtonStop.d"  "../AlternatingButtonStop.c"
+"../AlternatingButtonStop.c", line 26: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../AlternatingButtonStop.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../AlternatingButtonStop.c'
+' '
+'Building file: ../ButtonBlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBlink.d"  "../ButtonBlink.c"
+'Finished building: ../ButtonBlink.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553 Blinks ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-2-blinking-leds-fraserj0/MSP430G2553/MSP430G2553 Blinks" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 8: warning #225-D: function "ButtonBlinkColorChange" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building target: MSP430G2553 Blinks.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553 Blinks.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553 Blinks_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553 Blinks.out" "./AlternatingBlink.obj" "./AlternatingButtonStop.obj" "./ButtonBlink.obj" "./ButtonBlinkColorChange.obj" "./MultipleBlink.obj" "./SimpleBlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553 Blinks.out'
+' '
+
+**** Build Finished ****

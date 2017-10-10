@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430fr6989.cmd 
+
+C_SRCS += \
+../ButtonBlink.c \
+../MultipleBlink.c \
+../SimpleBlink.c \
+../main.c 
+
+C_DEPS += \
+./ButtonBlink.d \
+./MultipleBlink.d \
+./SimpleBlink.d \
+./main.d 
+
+OBJS += \
+./ButtonBlink.obj \
+./MultipleBlink.obj \
+./SimpleBlink.obj \
+./main.obj 
+
+OBJS__QUOTED += \
+"ButtonBlink.obj" \
+"MultipleBlink.obj" \
+"SimpleBlink.obj" \
+"main.obj" 
+
+C_DEPS__QUOTED += \
+"ButtonBlink.d" \
+"MultipleBlink.d" \
+"SimpleBlink.d" \
+"main.d" 
+
+C_SRCS__QUOTED += \
+"../ButtonBlink.c" \
+"../MultipleBlink.c" \
+"../SimpleBlink.c" \
+"../main.c" 
+
+

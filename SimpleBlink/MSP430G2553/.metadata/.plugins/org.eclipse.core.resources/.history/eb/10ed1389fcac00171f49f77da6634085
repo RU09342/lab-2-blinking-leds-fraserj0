@@ -1,0 +1,13 @@
+#include <msp430.h> 
+
+int main(void)
+{
+     SimpleBlink();
+     //MultipleBlink();
+     //ButtonBlink();
+	 //OffBoardBlink();
+     //ButtonBlinkColorChange();
+     //AlternatingBlink();
+     //AlternatingButtonStop();
+	return 0;
+}

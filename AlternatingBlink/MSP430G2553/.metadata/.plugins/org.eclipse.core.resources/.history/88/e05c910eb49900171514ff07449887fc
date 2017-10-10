@@ -1,0 +1,37 @@
+#include <msp430.h>
+int ButtonBlinkColorChange(void)
+{
+    volatile int i;
+     // stop watchdog timer
+     WDTCTL = WDTPW | WDTHOLD; //stop watchdog timer
+
+     // set up bit 6 and 0 of P1 as output
+     P1DIR = 0x41; // 0100 0001
+     P1OUT = 0x08; // intialize bit 0, and 6 of P1 to 1
+     P1REN = 0x08;  // adds a pull up resistor on the switch (P1: 00001000)
+
+     int prevstate = 0x48;
+
+     while(1){
+     if (P1IN == 0x08){
+         P1OUT = prevstate;
+         }
+     else //if button is pressed
+     {
+         if (P1OUT == 0x48){
+             P1OUT = 0x09;
+             prevstate = P1OUT;
+         }
+
+         else if (P1OUT == 0x09){
+             P1OUT = 0x48;
+             prevstate = P1OUT;
+         }
+                 }
+     for (i = 0; i < 1000; i++);
+             }
+         }
+
+
+
+
